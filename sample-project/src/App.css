@@ -1,38 +1,372 @@
-.App {
-  text-align: center;
-}
+.head-1{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  padding: 15px;
+  
+ }
+ .head-2{
+   display: flex;
+   justify-content: right;
+   list-style-type: none; 
+ 
+ }
+ .head-3{
+   margin: 30px;
+   list-style-type: none;
+   font-size: 20px;
+   font-weight: 500;
+   text-decoration: none; 
+   color: black;
+   
+ }
+ .head-3:hover{
+   background-color: lightblue;
+   border-radius: 23px;
+   padding: 5px 8px;
+   border-style: solid;
+   background: transparent;
+   border-width: 2px;
+   color: rgb(53, 233, 224);
+  
+ }
+ .img{
+   position: absolute;
+   top: 30%;
+   width: 100%;
+   height: 90vh;
+ }
+ 
+ 
+ .display{
+   display: inline-flex;
+   justify-content: space-between;
+   height: 100vh;
+  
+ }
+ .img-1{
+   position: absolute;
+   top: 2%;
+   left: 3%;
+ }
+ .img-2{
+   position: absolute;
+   top: 158%;
+   left: 1%;
+   width: 30%;
+   height: 40vh;
+   border-radius: 20px;
+ }
+ .img-3{
+   position: absolute;
+   top: 158%;
+   left: 35%;
+   width: 30%;
+   height: 40vh;
+   border-radius: 20px;
+ }
+ .img-4{
+   position: absolute;
+   top: 158%;
+   left: 70%;
+   width: 30%;
+   height: 40vh;
+   border-radius: 20px;
+   
+ }
+ .img-5{
+   position: absolute;
+   width: 56%;
+   height: 15.1vh;
+   left: 44%;
+   top: 15%;
+   opacity: 0.3;
+   background-color: transparent;
+   border-radius: 35px 0 0 0 ;
+ }
+ .img-6{
+   position: absolute;
+   width: 80%;
+   height: 18.1vh;
+   left: 12%;
+   top: 110%;
+   box-shadow: 0 0 1px 0 black;
+   border-radius: 35px ;
+ }
+ .img-7{
+  position: absolute;
+  width: 58%;
+  height: 28.1vh;
+  left: 9%;
+  top: 27.8%;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 35px ;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ .price{
+   position: absolute;
+   left: 50%;
+ }
+ .center{
+   position: absolute;
+   top: 132%;
+   left: 3%;
+   font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .center-1{
+   position: absolute;
+   top: 140%;
+   left: 3%;
+   color: rgb(56, 55, 55);
+   font-size: 23px;
+ }
+ .center-2{
+   position: absolute;
+   top: 14%;
+   left: 9%;
+   font-size: 43px;
+   font-weight: bolder;
+   color: rgb(82, 191, 241);
+ }
+ .center-3{
+   position: absolute;
+   top: 18%;
+   left: 49%;
+   font-size: 30px;
+   font-weight: bolder;
+   color: rgb(10, 10, 10);
+ }
+ .center-4{
+   position: absolute;
+   top: 115%;
+   left: 15%;
+   font-size: 30px;
+   color: rgb(10, 10, 10);
+ }
+ .center-5{
+   position: absolute;
+   top: 116.5%;
+   left: 45%;
+   font-size: 20px;
+   color: rgb(129, 126, 126);
+ }
+ .center-6{
+   position: absolute;
+   top: 112.5%;
+   left: 79%;
+   font-size: 20px;
+   color: rgb(101, 156, 228);
+ }
+ .center-7{
+   position: absolute;
+   top: 116.5%;
+   left: 77%;
+   font-size: 32px;
+   
+   color: rgb(12, 12, 12);
+ }
+ .center-8{
+   position: absolute;
+   top: 113%;
+   left: 55%;
+   font-size: 15px;
+   color: rgb(129, 126, 126);
+ }
+ .center-9{
+   position: absolute;
+   top: 113%;
+   left: 61%;
+   font-size: 15px;
+   color: rgb(129, 126, 126);
+ }
+ .center-10{
+   position: absolute;
+   top: 113%;
+   left: 68%;
+   font-size: 15px;
+   color: rgb(129, 126, 126);
+ }
+ .btn-1{
+  position: absolute;
+  top: 160%;
+  left: 2%;
+  border-radius: 30px;
+  height: 4vh;
+  width: 5%;
+  outline: none;
+  border: none;
+  
+ }
+ .btn-2{
+   position: absolute;
+  top: 160%;
+  left: 8%;
+  border-radius: 30px;
+  height: 4vh;
+  width: 5%;
+  background-color: blue;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  outline: none;
+  border: none;
+ }
+ .btn-3{
+   position: absolute;
+  top: 160%;
+  left: 14%;
+  border-radius: 30px;
+  height: 4vh;
+  width: 5%;
+  color: #fff;
+  background-color: orangered;
+  outline: none;
+  border: none;
+ }
+ .btn-4{
+ position: absolute;
+ top: 160%;
+ left: 23%;
+ width: 3%;
+ height: 4vh;
+ border-radius: 30px;
+ border: none;
+ }
+ .btn-5{
+ position: absolute;
+ top: 160%;
+ left: 27%;
+ width: 3%;
+ height: 4vh;
+ border-radius: 30px;
+ padding: 5px 8px;
+ border: none;
+ }
+ .btn-6{
+   position: absolute;
+ top: 19.7%;
+ left: 83%;
+ width: 11%;
+ height: 7vh;
+ border-radius: 30px;
+ padding: 5px 8px;
+ border: none;
+ background-color: rgb(87, 200, 252);
+ color: #fff;
+ font-weight: bold;
+ 
+ }
+ .btn-6:hover{
+  background-color: white;
+  color: rgb(33, 66, 212);
+  border-color: #41b1f1;
+ }
+ .btn-7{
+ position: absolute;
+ top: 108%;
+ left: 16%;
+ width: 7%;
+ height: 4vh;
+ border-radius: 30px;
+ border: none;
+ background-color: #41b1f1;
+ color: #fff;
+ font-weight: bold;
+ }
+ .btn-8{
+   position: absolute;
+   top: 160%;
+   left: 36%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 5%;
+   outline: none;
+   border: none;
+ }
+ .btn-9{
+   position: absolute;
+   top: 160%;
+   left: 42%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 5%;
+   outline: none;
+   border: none;
+   background-color: #41b1f1;
+   color: #fff;
+ }
+ .btn-10{
+   position: absolute;
+   top: 160%;
+   left: 57%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 3%;
+   outline: none;
+   border: none;
+   
+ }
+ .btn-11{
+   position: absolute;
+   top: 160%;
+   left: 61%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 3%;
+   outline: none;
+   border: none;
+ }
+ .btn-12{
+   position: absolute;
+   top: 160%;
+   left: 71.3%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 5%;
+   outline: none;
+   border: none;
+ }
+ .btn-13{
+   position: absolute;
+   top: 160%;
+   left: 77%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 5%;
+   outline: none;
+   border: none;
+   background-color: #41b1f1;
+   color: white;
+ }
+ .btn-14{
+   position: absolute;
+   top: 160%;
+   left: 82.5%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 5%;
+   outline: none;
+   border: none;
+   background-color: #f51616;
+   color: #fff;
+ }
+ .btn-15{
+   position: absolute;
+   top: 160%;
+   left: 93%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 3%;
+   outline: none;
+   border: none;
+   background-color: #f9fbfc;
+   color: #050505;
+ }
+ .btn-16{
+   position: absolute;
+   top: 160%;
+   left: 97%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 3%;
+   outline: none;
+   border: none;
+   background-color: #f9fcfd;
+   color: #030303;
+ }
