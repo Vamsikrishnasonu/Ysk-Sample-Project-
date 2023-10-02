@@ -39,8 +39,60 @@
  .display{
    display: inline-flex;
    justify-content: space-between;
-   height: 100vh;
+   height: 40vh;
   
+ }
+ .display-1{
+  position: absolute;
+  top: 200%;
+  left: 2%;
+  font-size: 20px;
+  margin: 5px;
+ }
+ .display-2{
+  position: absolute;
+  top: 200%;
+  left: 35%;
+  font-size: 20px;
+  margin: 5px;
+ }
+ .display-3{
+  position: absolute;
+  top: 200%;
+  left: 70%;
+  font-size: 20px;
+  margin: 5px;
+ }
+ .bold{
+  font-weight: bold;
+  font-size: 25px;
+ }
+ .list{
+  position: absolute;
+  display: flex;
+  top: 218.7%;
+  left: 12%;
+  list-style-type: none;
+  color: #41b1f1;
+ }
+ .list-1{
+  margin: 20px;
+ }
+ .list-2{
+  position: absolute;
+  display: flex;
+  top: 218.7%;
+  left: 47%;
+  list-style-type: none;
+  color: #41b1f1;
+ }
+ .list-3{
+  position: absolute;
+  display: flex;
+  top: 218.7%;
+  left: 81%;
+  list-style-type: none;
+  color: #41b1f1;
  }
  .img-1{
    position: absolute;
@@ -97,8 +149,80 @@
   height: 28.1vh;
   left: 9%;
   top: 27.8%;
-  box-shadow: 0 0 5px 0 black;
+  box-shadow: 0 0 1px 0 black;
   border-radius: 35px ;
+}
+.img-8{
+  position: absolute;
+  top: 275%;
+  left: 3%;
+  width: 60%;
+  height: 85vh;
+  border-radius: 20px;
+  
+}
+.img-9{
+  position: absolute;
+  top: 277%;
+  left: 5%;
+  width: 10%;
+  height: 14vh;
+  border-radius: 20px;
+  
+}
+.img-10{
+  position: absolute;
+  top: 367%;
+  left: 5%;
+  width: 15%;
+  height: 22vh;
+  border-radius: 15px;
+  
+}
+.img-11{
+  position: absolute;
+  top: 367%;
+  left: 21%;
+  width: 15%;
+  height: 22vh;
+  border-radius: 15px;
+  
+}
+.img-12{
+  position: absolute;
+  top: 367%;
+  left: 37%;
+  width: 15%;
+  height: 22vh;
+  border-radius: 15px;
+  
+}
+.img-13{
+  position: absolute;
+  top: 452%;
+  left: 18%;
+  width: 13%;
+  height: 23vh;
+  border-radius: 100px;
+  
+}
+.img-14{
+  position: absolute;
+  top: 563%;
+  left: 75%;
+  opacity: 0.6;
+  background-color: blue !important;
+}
+.color-1{
+  height: 158vh;
+  background-color: #e3f7fa;
+}
+.color-2{
+  height: 100vh;
+}
+.color-3{
+  height: 80vh;
+  background-color: #249ae9;
 }
  .price{
    position: absolute;
@@ -184,6 +308,94 @@
    font-size: 15px;
    color: rgb(129, 126, 126);
  }
+ .center-11{
+  position: absolute;
+  top: 34%;
+  left: 14%;
+  width: 50%;
+  font-size: 15px;
+  color: rgb(172, 169, 169);
+ }
+ .center-12{
+  position: absolute;
+  top: 32%;
+  left: 14%;
+  width: 50%;
+  font-size: 19px;
+  color: rgb(26, 25, 25);
+ }
+ .center-13{
+  position: absolute;
+  top: 41%;
+  left: 12%;
+  width: 50%;
+  font-size: 17px;
+  color: rgb(75, 72, 72);
+ }
+ .center-14{
+  position: absolute;
+  top: 41%;
+  left: 32%;
+  width: 50%;
+  font-size: 17px;
+  color: rgb(75, 73, 73);
+ }
+ .center-15{
+  position: absolute;
+  top: 41%;
+  left: 49%;
+  width: 50%;
+  font-size: 17px;
+  color: rgb(63, 61, 61);
+ }
+ .icons-1{
+  position: absolute;
+  left: -6%;
+  font-size: 30px;
+  color: rgb(129, 126, 126);
+ }
+ .icons-2{
+  position: absolute;
+  left: 20%;
+  top: 240%;
+  font-size: 30px;
+  color: rgb(69, 165, 209);
+ }
+ .icons-3{
+  position: absolute;
+  left: 25%;
+  top: 240%;
+  font-size: 30px;
+  color: rgb(69, 165, 209);
+ }
+ .icons-4{
+  position: absolute;
+  left: 28%;
+  top: 240%;
+  font-size: 30px;
+  color: rgb(69, 165, 209);
+ }
+ .icons-5{
+  position: absolute;
+  left: 81%;
+  top: 3.6%;
+  font-size: 30px;
+  color: rgb(69, 165, 209);
+ }
+ .icons-6{
+  position: absolute;
+  left: 97%;
+  top: 3.1%;
+  font-size: 38px;
+  color: rgb(69, 165, 209);
+ }
+ .icons-7{
+  position: absolute;
+  left: 7%;
+  top: 28%;
+  font-size: 30px;
+  color: rgb(129, 126, 126);
+ }
  .btn-1{
   position: absolute;
   top: 160%;
@@ -197,15 +409,17 @@
  }
  .btn-2{
    position: absolute;
-  top: 160%;
-  left: 8%;
-  border-radius: 30px;
-  height: 4vh;
-  width: 5%;
-  background-color: blue;
-  color: white;
-  outline: none;
+   
+   top: 160%;
+   left: 8%;
+   border-radius: 30px;
+   height: 4vh;
+   width: 5%;
+   outline: none;
+   border: none;
   border: none;
+  background-color: #41b1f1;
+  color: #fff;
  }
  .btn-3{
    position: absolute;
@@ -369,4 +583,252 @@
    border: none;
    background-color: #f9fcfd;
    color: #030303;
+ }
+ .btn-17{
+  position: absolute;
+  top: 31%;
+  left: 39%;
+  width: 6%;
+  height: 7vh;
+  border-radius: 30px;
+  padding: 5px 8px;
+  border: none;
+  background-color: rgb(87, 200, 252);
+  color: #fff;
+  font-weight: bold;
+ }
+
+ .btn-18{
+  position: absolute;
+  top: 31%;
+  left: 47%;
+  width: 7%;
+  height: 7vh;
+  border-radius: 30px;
+  padding: 5px 8px;
+  border: none;
+  background-color: rgb(237, 240, 241);
+  color: #0c0c0c;
+  font-weight: bold;
+ }
+ .btn-18:hover{
+  background-color: #41b1f1;
+  color: #fff;
+ }
+ .btn-19{
+  position: absolute;
+  top: 31%;
+  left: 56%;
+  width: 8%;
+  height: 7vh;
+  border-radius: 30px;
+  padding: 5px 8px;
+  border: none;
+  background-color: rgb(240, 243, 245);
+  color: #070707;
+  font-weight: bold;
+ }
+ .btn-19:hover{
+  background-color: #41b1f1;
+  color: #fff;
+ }
+ .btn-20{
+  position: absolute;
+  top: 47%;
+  left: 56%;
+  width: 8%;
+  height: 7vh;
+  border-radius: 30px;
+  padding: 5px 8px;
+  border: none;
+  background-color: rgb(20, 163, 230);
+  color: #fff;
+  font-weight:900;
+  font-size: 16px;
+ }
+ .btn-20:hover{
+  background-color: #fff;
+  color: rgb(46, 100, 216);
+ }
+ .btn-21{
+  position: absolute;
+  top: 47%;
+  left: 40%;
+  width: 15%;
+  height: 7vh;
+  border-radius: 30px;
+  padding: 5px 8px;
+  border: none;
+  background-color: rgb(239, 242, 243);
+  color: #4597e4;
+  font-weight: bold;
+  font-size: 16px;
+ }
+ .btn-21:hover{
+  background-color: #41b1f1;
+  color: #fff;
+ }
+ .btn-22{
+  position:absolute;
+  top: 275%;
+  background-color: white;
+  color: #585656;
+  left: 66%;
+  width: 6%;
+  height: 3.5%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+ }
+ .btn-22:hover{
+  background-color: #030303;
+  color: #fff;
+ }
+ .btn-23{
+  position:absolute;
+  top: 275%;
+  background-color: rgb(74, 206, 247);
+  color: #fff;
+  left: 74%;
+  width: 6.5%;
+  height: 3.5%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-weight: bold;
+ }
+ .btn-24{
+  position:absolute;
+  top: 275%;
+  background-color: rgb(214, 122, 16);
+  color: #ffffff;
+  left: 82%;
+  width: 4%;
+  height: 3.5%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+ 
+ }
+ .btn-25{
+  position: absolute;
+  top: 536%;
+  left: 66%;
+  width: 15%;
+  height: 8%;
+  border-radius: 33px;
+  font-weight: bold;
+  font-size: 21px;
+  border: none;
+  outline: none;
+  color: #41b1f1;
+ }
+ .btn-25:hover{
+  background: #249ae9;
+  color: #fff;
+ }
+ .para-1{
+  position: absolute;
+  left: 67%;
+  top: 280%;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .para-2{
+  position: absolute;
+  left: 67%;
+  top: 295%;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #817d7d;
+ }
+ .para-3{
+  position: absolute;
+  left: 67%;
+  top: 315%;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #53b1f0;
+ }
+ .para-4{
+  position: absolute;
+  left: 67%;
+  top: 329%;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #808385;
+ }
+ .para-5{
+  position: absolute;
+  left: 45%;
+  top: 445%;
+  font-size: 36px;
+  color: #41b1f1;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .para-6{
+  position: absolute;
+  left: 45%;
+  top: 467%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .para-7{
+  position: absolute;
+  left: 45%;
+  top: 430%;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .para-8{
+  position: absolute;
+  left: 45%;
+  top: 480%;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .para-9{
+  position: absolute;
+  left: 45%;
+  top: 488%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .para-10{
+  position: absolute;
+  left: 3%;
+  top: 520%;
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .para-11{
+  position: absolute;
+  left: 3%;
+  top: 540%;
+  font-size: 25px;
+  color: #ddd4d4;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .para-12{
+  position: absolute;
+  left: 52%;
+  top: 565%;
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .para-13{
+  position: absolute;
+  left: 3%;
+  top: 565%;
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
  }
