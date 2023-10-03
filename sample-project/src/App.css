@@ -3,6 +3,49 @@
   padding: 15px;
   
  }
+ .dropbtn {
+  
+  background-color: #fcfcfc;
+  color: rgb(3, 3, 3);
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  border-radius: 40px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(124, 123, 123, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #e3e6e7;
+  color: #249ae9;
+}
  .head-2{
    display: flex;
    justify-content: right;
@@ -18,16 +61,7 @@
    color: black;
    
  }
- .head-3:hover{
-   background-color: lightblue;
-   border-radius: 23px;
-   padding: 5px 8px;
-   border-style: solid;
-   background: transparent;
-   border-width: 2px;
-   color: rgb(53, 233, 224);
-  
- }
+
  .img{
    position: absolute;
    top: 30%;
@@ -38,8 +72,7 @@
  
  .display{
    display: inline-flex;
-   justify-content: space-between;
-   height: 40vh;
+   height:26vh;
   
  }
  .display-1{
@@ -70,7 +103,7 @@
  .list{
   position: absolute;
   display: flex;
-  top: 218.7%;
+  top: 214.4%;
   left: 12%;
   list-style-type: none;
   color: #41b1f1;
@@ -81,7 +114,7 @@
  .list-2{
   position: absolute;
   display: flex;
-  top: 218.7%;
+  top: 214.4%;
   left: 47%;
   list-style-type: none;
   color: #41b1f1;
@@ -89,10 +122,13 @@
  .list-3{
   position: absolute;
   display: flex;
-  top: 218.7%;
+  top: 214.4%;
   left: 81%;
   list-style-type: none;
   color: #41b1f1;
+ }
+ .list-4{
+  list-style-type: none;
  }
  .img-1{
    position: absolute;
@@ -214,7 +250,7 @@
   background-color: blue !important;
 }
 .color-1{
-  height: 158vh;
+  height: 150vh;
   background-color: #e3f7fa;
 }
 .color-2{
@@ -378,14 +414,14 @@
  .icons-5{
   position: absolute;
   left: 81%;
-  top: 3.6%;
+  top: 2%;
   font-size: 30px;
   color: rgb(69, 165, 209);
  }
  .icons-6{
   position: absolute;
   left: 97%;
-  top: 3.1%;
+  top: 2%;
   font-size: 38px;
   color: rgb(69, 165, 209);
  }
@@ -832,3 +868,250 @@
   font-family: 'Times New Roman', Times, serif;
   color: #fff;
  }
+ .card{
+  height: 70vh;
+  width: 100%;
+ }
+ .card-2{
+position: relative;
+height: 100%;
+ }
+ .card-2:hover {
+  opacity: 0.8;
+  transition: ease 0.3s all ;
+ }
+ .card-3{
+position: absolute;
+opacity: 1;
+width: 100%;
+background-color: rgb(255, 255, 255);
+ }
+ .card-4{
+  background-color: #fffefe;
+  height: 40vh;
+  
+ }
+ .card-5:hover{
+  background-color: rgb(188, 224, 238);
+ }
+ .card-5{
+  position: absolute;
+  top: 780%;
+  left: 2%;
+  width: 18%;
+  height: 15vh;
+  box-shadow: 0 0 15px 0 rgb(136, 135, 135);
+ }
+ .card-6{
+  position: absolute;
+  left: 24%;
+  top: 780%;
+  width: 16%;
+  height: 15vh;
+  box-shadow: 0 0 15px 0 rgb(129, 127, 127);
+ }
+ .card-6:hover{
+  background-color: rgb(188, 224, 238);
+ }
+ .card-7{
+  position: absolute;
+  left: 44%;
+  top: 780%;
+  height: 15vh;
+  width: 16%;
+  box-shadow: 0 0 15px 0 rgb(139, 137, 137);
+ }
+ .card-7:hover{
+  background-color: rgb(188, 224, 238);
+ }
+ .card-8{
+position: absolute;
+left: 64%;
+top: 780%;
+width: 16%;
+height: 15vh;
+box-shadow: 0 0 15px 0 rgb(136, 133, 133);
+ }
+ .card-8:hover{
+  background-color: rgb(188, 224, 238);
+ }
+ .card-9{
+position: absolute;
+left: 83%;
+top: 780%;
+width: 16%;
+height: 15vh;
+box-shadow: 0 0 15px 0 rgb(143, 141, 141);
+ }
+ .card-9:hover{
+  background-color: rgb(188, 224, 238);
+ }
+ .flex-1{
+  position: absolute;
+  width: 100%;
+  height:60vh;
+  border-radius: 30px ;
+  top: 7%;
+ 
+ }
+ .flex-1:hover{
+  transition: all 0.3s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #249ae9;
+  transform: scale(1.25) rotate(2 deg);
+ }
+ .flex-2{
+  position: absolute;
+  width: 23%;
+  height: 60vh;
+  left: 75%;
+  border-radius: 30px ;
+  top: 7%;
+ }
+ .flex-3{
+  position: absolute;
+  width: 23%;
+  height: 60vh;
+  left: 26%;
+  border-radius: 30px ;
+  top: 7%;
+ }
+ .flex-4{
+  position: absolute;
+  width: 23%;
+  height: 60vh;
+  left: 51%;
+  border-radius: 30px ;
+  top: 7%;
+ }
+ .bold-1{
+  
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+ }
+ .bold-2{
+ font-size: x-large;
+
+ }
+ .bold-3{
+  color: #79c3f5;
+ }
+ .bold-4{
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+ }
+ .bold-5{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+ }
+ .card-10{
+  background-color: rgb(229, 246, 252);
+  height: 100vh;
+ }
+ .card-11{
+  position: absolute;
+  left: 3%;
+  top: 825%;
+  
+ }
+ .foot{
+  position: absolute;
+  top: 840%;
+  left: 3%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #727577;
+ }
+ .foot-1{
+  position: absolute;
+  top: 855%;
+  left: 3%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #727577;
+ }
+ .foot-2{
+  position: absolute;
+  top: 840%;
+  left: 35%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #727577;
+  list-style-type: none;
+ }
+ .foot-3{
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  font-size: 26px;
+  color: #41b1f1;
+ }
+ .foot-4{
+  margin: 20px;
+ }
+ .foot-5{
+  position: absolute;
+  display: flex;
+  top: 870%;
+  left: 15%;
+  list-style-type: none;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color: #cae6f8;
+  width: 80%;
+  border-radius: 70px;
+  
+  
+ }
+ .foot-6{
+  margin: 50px;
+ }
+ .foot-7{
+  border-radius: 30px;
+  height: 7vh;
+  color: rgb(12, 12, 12);
+  background-color: #fff;
+  border: none;
+  outline: none;
+  
+ }
+ .foot-8{
+  color: #41b1f1;
+  font-size: 25px;
+ }
+ .text-1{
+  position: absolute;
+  left: 68%;
+  top: 840%;
+  border-radius: 30px;
+  width: 21%;
+  height: 6.7vh;
+ }
+ .text-2{
+  position: absolute;
+  left: 86%;
+  top: 840%;
+  width: 8%;
+  height: 6.7vh;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background-color: #41b1f1;
+  color: #fff;
+ }
+ .text-2:hover{
+  background-color: orangered;
+  color: #fff;
+ }
+.real-img {
+  width: 100%;
+}
+.real-1{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
