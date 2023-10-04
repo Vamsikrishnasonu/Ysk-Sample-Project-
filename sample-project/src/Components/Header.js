@@ -12,31 +12,12 @@ const Header = () => {
         <div className="head-1">
             <ul className="head-2">
 
-                <li><Link className="head-3" to='/home'>HOME</Link></li>
-                <li><Link className="head-3" to='/realestate'><div class="dropdown">
-                    <button class="dropbtn">Real Estate</button>
-                    <div class="dropdown-content">
-                        <a href="/gridelayout">Properties Grid Lyout</a>
-                        <a href="#">Properties Grid Full Width</a>
-                        <a href="#">Properties List Layout</a>
-                        <a href="#">Properties List Full Width</a>
-                        <a href="#">Properties Half Map</a>
-                        <a href="#">Properties Gallery</a>
-                        <a href="#">Agents</a>
-                        <a href="#">Agencies</a>
-                        <a href="#">FAQS</a>
-                    </div>
-                </div></Link></li>
+                <li><Link className="head-3" to='/'>HOME</Link></li>
+                <li><Link className="head-3" to='/realestate'>Real
+                estate
+                   </Link></li>
 
-                <li><Link className="head-3" to='/'>
-                    <div class="dropdown">
-                        <button class="dropbtn">Property Single</button>
-                        <div class="dropdown-content">
-                            <a href="#">Sidebar Layout</a>
-                            <a href="#">Full Width Layout</a>
-
-                        </div>
-                    </div></Link></li>
+                <li><Link className="head-3" to='/'> Property Single</Link></li>
                 <li><Link className="head-3" to='/'>Blog</Link></li>
 
                 <li><Link className="head-3" to='/'>Contact</Link></li>

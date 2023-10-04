@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 const Data = [
     {
@@ -51,26 +53,37 @@ const Data = [
     },
 ]
 
-const Realestate = () =>{
+const Realestate = () => {
 
-    return(
-        <div className="container-fluid">
+    return (
+        <div className="state">
+            <div>
+            <br /><br />
+            <h2>Home/<a href="#">Properties Grid Full Width</a></h2>
+            <p>Properties Grid Full Width</p>
+            <h3>1 to 6 out of 10 properties</h3>
+
             <ul className="d-flex row p-0">
-            {Data.map((each) =>{
-                return(
-                    <li className="col-xl-4">
-                        <img className="real-img" src={each.img} alt=""/>
-                        <div className="real-1">
-                        <p>{each.title}</p>
-                        <p>{each.location}</p>
-                        <p>{each.familyType}</p>
-                        <p>{each.price}</p>
-                        </div>
-                    </li>
-                )
-            })}
+                {Data.map((each) => {
+                    return (
+                        <li className="col-xl-4">
+                            <Link to={`/realestate/${each.id}`}><img className="real-img" src={each.img} alt="" /></Link>
+                            <div className="real-1">
+                                <p>{each.title}</p>
+                                <p>{each.location}</p>
+                                <p>{each.familyType}</p>
+                                <p>{each.price}</p>
+                            </div>
+                        </li>
+                    )
+                })}
             </ul>
+            </div>
+            <div>
+                
+            </div>
         </div>
+
     )
 }
 

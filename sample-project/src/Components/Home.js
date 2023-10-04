@@ -128,7 +128,7 @@ const Home = () => {
                 {Data.map((each) => {
                     return (
 
-                        <div >
+                        <div key={each.id} >
 
                             <div className="display">
                                 <button className="btn-1">For Sale</button>
@@ -201,7 +201,7 @@ const Home = () => {
                 {Data.map((each) => {
                     return (
 
-                        <div>
+                        <div key={each.id} > 
                             <img className="img-8" src={each.img4} />
                             <img className="img-9" src={each.img5} />
                             <img className="img-10" src={each.img6} />
@@ -224,7 +224,7 @@ const Home = () => {
             <div className="color-2">
                 {Data.map((each) => {
                     return (
-                        <div>
+                        <div key={each.id} >
                             <img className="img-13" src={each.img9} />
                             <p className="para-6">I have been a web designer for over 18 years now. The theme is fantastic,<br /> flexible and simply excellent to use. I cannot recommend enough!</p>
                             <p className="para-5">This is genuinely the best theme I have ever<br /> bought in terms of super easy & clear<br /> instructions to follow.    </p>
@@ -238,7 +238,7 @@ const Home = () => {
             <div className="color-3">
                 {Data.map((each) => {
                     return (
-                        <div>
+                        <div key={each.id} >
 
                             <h1 className="para-10">Finding a perfect property have never <br />been this easy earlier</h1>
                             <p className="para-11">{each.para6}</p>
@@ -274,7 +274,7 @@ const Home = () => {
                     {Data.map((each) => {
                         return (
 
-                            <li className="list-4 col-xl-4">
+                            <li key={each.id} className="list-4 col-xl-4">
                                 <img src={each.img} />
                                 <div className="bold-1">
                                 <p>{each.date}</p>

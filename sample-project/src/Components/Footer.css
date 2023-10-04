@@ -1,0 +1,97 @@
+.footer-1{
+    background-color: #dbe1e6;
+    height: 100vh;
+  }
+  .footer-2{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+  .footer-3{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .footer-4{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .footer-5{
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    border-radius: 30px;
+    width: 21%;
+    height: 6.7vh;
+  }
+  .footer-6{
+    position: absolute;
+    left: 86%;
+    top: 30%;
+    width: 8%;
+    height: 6.7vh;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #41b1f1;
+    color: #fff;
+  }
+  .footer-7{
+    position: absolute;
+    top: 28%;
+    left: 34%;
+    list-style-type: none;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+  }
+  .footer-8{
+    position: absolute;
+    top: 10%;
+    left: 83%;
+    display: flex;
+  }
+  .footer-9{
+    margin: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    color: #249ae9;
+  }
+  .footer-10{
+    position: absolute;
+    top: 64%;
+    background-color: #a4cce7;
+    position: absolute;
+    display: flex;
+    left: 15%;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 70px;
+    height: 20vh;
+  }
+  .footer-11{
+    margin: 50px;
+  }
+  .footer-12{
+    border-radius: 30px;
+    height: 7vh;
+    color: rgb(12, 12, 12);
+    background-color: #fff;
+    border: none;
+    outline: none;
+  }
+  .footer-13{
+    color: #41b1f1;
+    font-size: 25px;
+  }
